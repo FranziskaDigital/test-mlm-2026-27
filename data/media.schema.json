@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Digitaler Medienraum Leipzig",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "title",
+      "type",
+      "description",
+      "location",
+      "representations",
+      "rights"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^LDM-[0-9]{4}$"
+      },
+      "title": {
+        "type": "string",
+        "minLength": 1
+      },
+      "type": {
+        "type": "string",
+        "enum": [
+          "image",
+          "audio",
+          "video",
+          "3d",
+          "geo"
+        ]
+      },
+      "description": {
+        "type": "string"
+      },
+      "date": {
+        "type": "string"
+      },
+      "location": {
+        "type": "object",
+        "required": [
+          "name",
+          "lat",
+          "lon"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "lat": {
+            "type": "number",
+            "minimum": -90,
+            "maximum": 90
+          },
+          "lon": {
+            "type": "number",
+            "minimum": -180,
+            "maximum": 180
+          }
+        },
+        "additionalProperties": false
+      },
+      "representations": {
+        "type": "object",
+        "required": [
+          "access",
+          "mime"
+        ],
+        "properties": {
+          "access": {
+            "type": "string"
+          },
+          "thumbnail": {
+            "type": "string"
+          },
+          "mime": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "rights": {
+        "type": "object",
+        "required": [
+          "license"
+        ],
+        "properties": {
+          "license": {
+            "type": "string"
+          },
+          "rightsHolder": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "keywords": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "technical": {
+        "type": "object"
+      }
+    },
+    "additionalProperties": false
+  }
+}

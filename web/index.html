@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Leipzig – Digitaler Medienraum</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <p class="eyebrow">Media Lifecycle Management · WS 2026/27</p>
+    <h1>Leipzig – Digitaler Medienraum</h1>
+    <p>Multimediale Objekte als Ergebnis dokumentierter Datenlebenszyklen.</p>
+  </header>
+
+  <nav id="filters" aria-label="Medientypen">
+    <button data-type="all" class="active">Alle</button>
+    <button data-type="image">Bild</button>
+    <button data-type="audio">Audio</button>
+    <button data-type="video">Video</button>
+    <button data-type="3d">3D</button>
+    <button data-type="geo">Geo</button>
+  </nav>
+
+  <main>
+    <section id="map" aria-label="Karte"></section>
+    <section id="detail" aria-live="polite">
+      <h2>Medienobjekt auswählen</h2>
+      <p>Wählen Sie einen Punkt auf der Karte.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Lehrprojekt · Die Rechte der Medienobjekte sind jeweils in den Metadaten angegeben.</p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script type="module" src="https://unpkg.com/@google/model-viewer@4.3.1/dist/model-viewer.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

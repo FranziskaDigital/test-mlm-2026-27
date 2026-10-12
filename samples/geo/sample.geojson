@@ -1,0 +1,18 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Leipzig – Beispielpunkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3731,
+          51.3397
+        ]
+      }
+    }
+  ]
+}

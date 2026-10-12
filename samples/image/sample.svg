@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#eeeeee"/>
+  <circle cx="200" cy="250" r="90" fill="#cccccc"/>
+  <rect x="350" y="150" width="260" height="200" fill="#dddddd"/>
+  <text x="400" y="455" text-anchor="middle" font-family="sans-serif" font-size="28">
+    MLM – Bildsample
+  </text>
+</svg>

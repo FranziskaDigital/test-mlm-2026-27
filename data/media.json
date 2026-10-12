@@ -1,0 +1,31 @@
+[
+  {
+    "id": "LDM-0001",
+    "title": "Beispielobjekt Leipzig",
+    "type": "image",
+    "description": "Beispielobjekt zur Demonstration des gemeinsamen Datenmodells.",
+    "date": "2026",
+    "location": {
+      "name": "Leipzig",
+      "lat": 51.3397,
+      "lon": 12.3731
+    },
+    "representations": {
+      "access": "media/image/LDM-0001_access_v001.svg",
+      "thumbnail": "media/image/LDM-0001_access_v001.svg",
+      "mime": "image/svg+xml"
+    },
+    "rights": {
+      "license": "CC0-1.0",
+      "rightsHolder": "Lehrbeispiel"
+    },
+    "keywords": [
+      "Leipzig",
+      "Beispiel",
+      "Media Lifecycle Management"
+    ],
+    "technical": {
+      "note": "Technische Metadaten werden medienspezifisch erweitert."
+    }
+  }
+]

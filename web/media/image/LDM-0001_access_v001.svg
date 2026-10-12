@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#efefef"/>
+  <path d="M120 650 L380 340 L560 500 L720 300 L1080 650 Z" fill="#d4d4d4"/>
+  <circle cx="880" cy="190" r="75" fill="#dadada"/>
+  <text x="600" y="720" text-anchor="middle" font-family="sans-serif" font-size="44">
+    LDM-0001 · Beispielobjekt Leipzig
+  </text>
+</svg>

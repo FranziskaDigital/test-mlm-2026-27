@@ -1,0 +1,15 @@
+[
+  {
+    "event_id": "EVT-0001",
+    "type": "creation",
+    "date": "2026-10-11",
+    "object": "LDM-0001",
+    "agent": "course-starter",
+    "software": {
+      "name": "starter repository"
+    },
+    "input": null,
+    "output": "LDM-0001_access_v001.svg",
+    "note": "Beispielereignis; im Semester durch echte Lifecycle-Events ergänzen."
+  }
+]
